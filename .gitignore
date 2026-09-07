@@ -56,3 +56,4 @@ screen_capture_dataurl.txt
 .update_check
 .clean_shutdown
 .hermes_history
+memories/*.lock
