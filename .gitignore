@@ -1,5 +1,5 @@
 # Hermes 配置文件忽略规则
-# 只同步配置，不同步设备相关数据
+# 只同步 config.yaml / SOUL.md / memories/，其余均排除
 
 # 敏感文件
 auth.json
@@ -7,43 +7,31 @@ auth.lock
 .env
 *.token
 *.key
+.env.*
+
+# 锁文件（每设备独立）
+*.lock
+*.pid
 
 # 数据库（每个设备独立）
 *.db
 *.db-wal
 *.db-shm
-sessions/
-state.db
-response_store.db
-kanban.db
-memory_store.db
-verification_evidence.db
 
 # 缓存和日志
 cache/
 logs/
 checkpoints/
 .hermit/
-.request_dump*
-.request_dump_cron*
-
-# 定时任务输出
-cron/output/
-cron/.fire-*
-cron/.jobs.lock
-cron/.tick.lock
+request_dump*
 
 # 临时文件
 *.log
 *.tmp
-*.bak
 *~
-
-# Python 缓存
-__pycache__/
-*.pyc
-*.pyo
-*.egg-info/
+*.bak
+*.bak.*
+*.save
 
 # 系统文件
 .DS_Store
@@ -52,3 +40,19 @@ Thumbs.db
 
 # node_modules（避免重复安装）
 node_modules/
+
+# 运行时状态（每台电脑独立）
+.state-snapshots/
+processes.json
+gateway_state.json
+gateway/
+lsp/
+pairing/
+pastes/
+screen_capture_dataurl.txt
+.mcp-discovery.lock
+.hermes-update-in-progress
+._curator_backups
+.update_check
+.clean_shutdown
+.hermes_history
