@@ -19,3 +19,5 @@ Tool quirks: patch禁写~/.hermes/config.yaml→execute_code+ruamel; pikepdf覆�
 一人公司bot团队(11/2建): zongguan/neirong/chuangzuo/fenfa/chengzhang/biangu/kefu 7 profile,纯app侧;SOUL.md已写。旧九省六部9 profile已delete(墓碑),数据在~/.hermes/profiles/_liuju/。恢复:mv回_liuju/*。坑:命名profile不继承全局.env,AGNES_API_KEY须拷入;新bot首条消息可能Errno61(worker冷启动),重发即通。
 §
 MultiPost已弃用(11-11用户拍板): 清一AI账号发布一律ego直驱(见three-platform-publish skill), MultiPost扩展ego lite执行引擎不工作不再用
+§
+人名: 舒勉=燕芬姐女儿; 云琦=柚柚同学(非淑敏/云琪)。
