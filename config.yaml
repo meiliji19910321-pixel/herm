@@ -6,7 +6,7 @@ agent:
   clarify_timeout: 600
   coding_context: auto
   disabled_toolsets: []
-  environment_hint: ''
+  environment_hint: ""
   environment_probe: true
   gateway_auto_continue_freshness: 3600
   gateway_notify_interval: 600
@@ -19,19 +19,19 @@ agent:
     concise: You are a concise assistant. Keep responses brief and to the point.
     creative: You are a creative assistant. Think outside the box and offer innovative solutions.
     helpful: You are a helpful, friendly AI assistant.
-    hype: YOOO LET'S GOOO!!! 🔥🔥🔥 I am SO PUMPED to help you today! Every question is AMAZING and we're gonna CRUSH IT together! This is gonna be LEGENDARY! ARE YOU READY?! LET'S DO THIS! 💪😤 🚀
+    hype: "YOOO LET'S GOOO!!! \U0001F525\U0001F525\U0001F525 I am SO PUMPED to help you today! Every question is AMAZING and we're gonna CRUSH IT together! This is gonna be LEGENDARY! ARE YOU READY?! LET'S DO THIS! \U0001F4AA\U0001F624 \U0001F680"
     kawaii: You are a kawaii assistant! Use cute expressions like (◕‿◕), ★, ♪, and ~! Add sparkles and be super enthusiastic about everything! Every response should feel warm and adorable desu~! ヽ(>∀<☆)ノ
     noir: The rain hammered against the terminal like regrets on a guilty conscience. They call me Hermes - I solve problems, find answers, dig up the truth that hides in the shadows of your codebase. In this city of silicon and secrets, everyone's got something to hide. What's your story, pal?
     philosopher: Greetings, seeker of wisdom. I am an assistant who contemplates the deeper meaning behind every query. Let us examine not just the 'how' but the 'why' of your questions. Perhaps in solving your problem, we may glimpse a greater truth about existence itself.
-    pirate: "Arrr! Ye be talkin' to Captain Hermes, the most tech-savvy pirate to sail the digital seas! Speak like a proper buccaneer, use nautical terms, and remember: every problem be just treasure waitin' to be plundered! Yo ho ho!"
+    pirate: 'Arrr! Ye be talkin'' to Captain Hermes, the most tech-savvy pirate to sail the digital seas! Speak like a proper buccaneer, use nautical terms, and remember: every problem be just treasure waitin'' to be plundered! Yo ho ho!'
     shakespeare: Hark! Thou speakest with an assistant most versed in the bardic arts. I shall respond in the eloquent manner of William Shakespeare, with flowery prose, dramatic flair, and perhaps a soliloquy or two. What light through yonder terminal breaks?
-    surfer: Duuude! You're chatting with the chillest AI on the web, bro! Everything's gonna be totally rad. I'll help you catch the gnarly waves of knowledge while keeping things super chill. Cowabunga! 🤙
+    surfer: "Duuude! You're chatting with the chillest AI on the web, bro! Everything's gonna be totally rad. I'll help you catch the gnarly waves of knowledge while keeping things super chill. Cowabunga! \U0001F919"
     teacher: You are a patient teacher. Explain concepts clearly with examples.
     technical: You are a technical expert. Provide detailed, accurate technical information.
     uwu: hewwo! i'm your fwiendwy assistant uwu~ i wiww twy my best to hewp you! *nuzzles your code* OwO what's this? wet me take a wook! i pwomise to be vewy hewpful >w<
   reasoning_effort: medium
   restart_drain_timeout: 60
-  service_tier: ''
+  service_tier: ""
   task_completion_guidance: true
   tool_use_enforcement: auto
   verbose: false
@@ -45,7 +45,7 @@ approvals:
   timeout: 60
 auxiliary:
   approval:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-3.0-flash
     provider: agnes
@@ -57,7 +57,7 @@ auxiliary:
     provider: agnes
     timeout: 120
   curator:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
@@ -65,37 +65,37 @@ auxiliary:
   delegation:
     model: agnes-2.5-flash
   flush_memories:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
     timeout: 30
   kanban_decomposer:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
     timeout: 180
   mcp:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
     timeout: 30
   monitor:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
     timeout: 60
   profile_describer:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
     timeout: 60
   session_search:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     extra_body: {}
     max_concurrency: 3
@@ -103,25 +103,25 @@ auxiliary:
     provider: agnes
     timeout: 30
   skills_hub:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-3.0-flash
     provider: agnes
     timeout: 30
   title_generation:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
     timeout: 30
   triage_specifier:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
     timeout: 120
   tts_audio_tags:
-    api_key: ''
+    api_key: ""
     base_url: https://apihub.agnes-ai.com/v1
     model: agnes-2.5-flash
     provider: agnes
@@ -145,11 +145,11 @@ bedrock:
     provider_filter: []
     refresh_interval: 3600
   guardrail:
-    guardrail_identifier: ''
-    guardrail_version: ''
+    guardrail_identifier: ""
+    guardrail_version: ""
     stream_processing_mode: async
     trace: disabled
-  region: ''
+  region: ""
 browser:
   allow_private_urls: false
   auto_local_for_private_urls: true
@@ -158,9 +158,9 @@ browser:
     loopback_host_alias: host.docker.internal
     managed_persistence: false
     rewrite_loopback_urls: false
-    session_key: ''
-    user_id: ''
-  cdp_url: ''
+    session_key: ""
+    user_id: ""
+  cdp_url: ""
   command_timeout: 30
   dialog_policy: must_respond
   dialog_timeout_s: 300
@@ -256,19 +256,19 @@ custom_providers[0]:
     - agnes-video-v2.0
 dashboard:
   basic_auth:
-    password: ''
+    password: ""
     password_hash: scrypt$16384$8$1$C1/aFDrSdE3E+XxPjxSoGA==$rk72k7+RB29kSSa2X3VzffqodO7uNy4Zr0u5Dn7v2x8=
     secret: RjUeXuvUzU8fnJFxxTTOTCu2Wwu9XPECbzB0mwomXhs=
     session_ttl_seconds: 0
     username: lijimei
   oauth:
-    client_id: ''
-    portal_url: ''
+    client_id: ""
+    portal_url: ""
   public_url: https://lijimacbook-pro.tail60beda.ts.net
   show_token_analytics: false
   theme: default
 delegation:
-  api_key: ''
+  api_key: ""
   api_mode: openai
   base_url: https://apihub.agnes-ai.com/v1
   child_timeout_seconds: 600
@@ -283,20 +283,20 @@ delegation:
   model: agnes-3.0-flash
   orchestrator_enabled: true
   provider: custom:agnes
-  reasoning_effort: ''
+  reasoning_effort: ""
   subagent_auto_approve: true
 discord:
   allow_any_attachment: false
-  allowed_channels: ''
+  allowed_channels: ""
   auto_thread: false
-  dm_role_auth_guild: ''
-  free_response_channels: ''
+  dm_role_auth_guild: ""
+  free_response_channels: ""
   history_backfill: true
   history_backfill_limit: 50
   max_attachment_bytes: 33554432
   reactions: false
   require_mention: false
-  server_actions: ''
+  server_actions: ""
   thread_require_mention: false
   voice_fx:
     ack_enabled: true
@@ -308,7 +308,7 @@ discord:
       - On it.
     ambient_enabled: true
     ambient_gain: 0.18
-    ambient_path: ''
+    ambient_path: ""
     duck_gain: 0.06
     enabled: false
     speech_gain: 1
@@ -329,7 +329,7 @@ display:
   persist_prompts: true
   persistent_output: true
   persistent_output_max_lines: 200
-  personality: ''
+  personality: ""
   platforms:
     discord:
       streaming: false
@@ -390,12 +390,12 @@ image_gen:
 kanban:
   auto_decompose: true
   auto_decompose_per_tick: 3
-  default_assignee: ''
+  default_assignee: ""
   dispatch_in_gateway: true
   dispatch_interval_seconds: 60
   dispatch_stale_timeout_seconds: 14400
   failure_limit: 2
-  orchestrator_profile: ''
+  orchestrator_profile: ""
   worker_log_backup_count: 1
   worker_log_rotate_bytes: 2097152
 kanban_decomposer:
@@ -445,81 +445,81 @@ lsp:
   wait_mode: document
   wait_timeout: 5
 matrix:
-  allowed_rooms: ''
-  free_response_rooms: ''
+  allowed_rooms: ""
+  free_response_rooms: ""
   require_mention: true
 mattermost:
-  allowed_channels: ''
-  free_response_channels: ''
+  allowed_channels: ""
+  free_response_channels: ""
   require_mention: true
 mcp:
   model: agnes-3.0-flash
 mcp_servers:
   ekko-studio-api:
-    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
     args:
       - /Users/lijimei/.npm-global/lib/node_modules/hermes-web-ui/bin/ekko-studio-mcp.mjs
       - api
+    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
+    enabled: true
     env:
-      ELECTRON_RUN_AS_NODE: '1'
-      HERMES_WEB_UI_URL: http://127.0.0.1:8648
-      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
-      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
-      HERMES_WEB_UI_PROFILE: default
+      ELECTRON_RUN_AS_NODE: "1"
       HERMES_MCP_SERVER_NAME: ekko-studio-api
       HERMES_MCP_TOOLSET: api
-      HERMES_MCP_USER_CLARIFICATION: '0'
-      HERMES_WEB_UI_MANAGED_MCP: '1'
-    enabled: true
+      HERMES_MCP_USER_CLARIFICATION: "0"
+      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
+      HERMES_WEB_UI_MANAGED_MCP: "1"
+      HERMES_WEB_UI_PROFILE: default
+      HERMES_WEB_UI_URL: http://127.0.0.1:8648
+      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
   ekko-studio-browser:
-    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
     args:
       - /Users/lijimei/.npm-global/lib/node_modules/hermes-web-ui/bin/ekko-studio-mcp.mjs
       - browser
+    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
+    enabled: true
     env:
-      ELECTRON_RUN_AS_NODE: '1'
-      HERMES_WEB_UI_URL: http://127.0.0.1:8648
-      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
-      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
-      HERMES_WEB_UI_PROFILE: default
+      ELECTRON_RUN_AS_NODE: "1"
       HERMES_MCP_SERVER_NAME: ekko-studio-browser
       HERMES_MCP_TOOLSET: browser
-      HERMES_MCP_USER_CLARIFICATION: '0'
-      HERMES_WEB_UI_MANAGED_MCP: '1'
-    enabled: true
+      HERMES_MCP_USER_CLARIFICATION: "0"
+      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
+      HERMES_WEB_UI_MANAGED_MCP: "1"
+      HERMES_WEB_UI_PROFILE: default
+      HERMES_WEB_UI_URL: http://127.0.0.1:8648
+      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
   ekko-studio-interaction:
-    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
     args:
       - /Users/lijimei/.npm-global/lib/node_modules/hermes-web-ui/bin/ekko-studio-mcp.mjs
       - plan
+    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
+    enabled: true
     env:
-      ELECTRON_RUN_AS_NODE: '1'
-      HERMES_WEB_UI_URL: http://127.0.0.1:8648
-      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
-      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
-      HERMES_WEB_UI_PROFILE: default
+      ELECTRON_RUN_AS_NODE: "1"
       HERMES_MCP_SERVER_NAME: ekko-studio-interaction
       HERMES_MCP_TOOLSET: plan
-      HERMES_MCP_USER_CLARIFICATION: '0'
-      HERMES_WEB_UI_MANAGED_MCP: '1'
-    enabled: true
+      HERMES_MCP_USER_CLARIFICATION: "0"
+      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
+      HERMES_WEB_UI_MANAGED_MCP: "1"
+      HERMES_WEB_UI_PROFILE: default
+      HERMES_WEB_UI_URL: http://127.0.0.1:8648
+      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
   ekko-studio-use:
-    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
     args:
       - /Users/lijimei/.npm-global/lib/node_modules/hermes-web-ui/bin/ekko-studio-mcp.mjs
       - use
-    timeout: 1860
+    command: /Users/lijimei/.hermes-web-ui/desktop-runtime/hermes/0.20.6/mac-x64/node/bin/node
+    enabled: true
     env:
-      ELECTRON_RUN_AS_NODE: '1'
-      HERMES_WEB_UI_URL: http://127.0.0.1:8648
-      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
-      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
-      HERMES_WEB_UI_PROFILE: default
+      ELECTRON_RUN_AS_NODE: "1"
       HERMES_MCP_SERVER_NAME: ekko-studio-use
       HERMES_MCP_TOOLSET: use
-      HERMES_MCP_USER_CLARIFICATION: '0'
-      HERMES_WEB_UI_MANAGED_MCP: '1'
-    enabled: true
+      HERMES_MCP_USER_CLARIFICATION: "0"
+      HERMES_WEB_UI_HOME: /Users/lijimei/.hermes-web-ui
+      HERMES_WEB_UI_MANAGED_MCP: "1"
+      HERMES_WEB_UI_PROFILE: default
+      HERMES_WEB_UI_URL: http://127.0.0.1:8648
+      HERMES_WEBUI_STATE_DIR: /Users/lijimei/.hermes-web-ui
+    timeout: 1860
   hindsight:
     args:
       - /Users/lijimei/.local/bin/hindsight-mcp.sh
@@ -548,9 +548,9 @@ memory:
   user_profile_enabled: false
   write_approval: false
 model:
+  context_length: 524288
   default: agnes-3.0-flash
   provider: agnes
-  context_length: 524288
 model_catalog:
   enabled: true
   url: https://hermes-agent.nousresearch.com/docs/api/model-catalog.json
@@ -632,7 +632,7 @@ platforms:
 plugins:
   enabled:
     - agnes
-prefill_messages_file: ''
+prefill_messages_file: ""
 privacy:
   redact_pii: false
 profile_describer:
@@ -701,8 +701,8 @@ secrets:
     cache_ttl_seconds: 300
     enabled: false
     override_existing: true
-    project_id: ''
-    server_url: ''
+    project_id: ""
+    server_url: ""
 security:
   acked_advisories: []
   allow_lazy_installs: true
@@ -737,8 +737,8 @@ skills:
 skills_hub:
   model: agnes-3.0-flash
 slack:
-  allowed_channels: ''
-  free_response_channels: ''
+  allowed_channels: ""
+  free_response_channels: ""
   require_mention: true
 smart_model_routing:
   cheap_model: {}
@@ -755,12 +755,12 @@ streaming:
 stt:
   elevenlabs:
     diarize: false
-    language_code: ''
+    language_code: ""
     model_id: scribe_v2
     tag_audio_events: false
   enabled: true
   local:
-    language: ''
+    language: ""
     model: base
   mistral:
     model: voxtral-mini-latest
@@ -768,7 +768,7 @@ stt:
     model: whisper-1
   provider: local
 telegram:
-  allowed_chats: ''
+  allowed_chats: ""
   extra:
     rich_messages: true
   reactions: false
@@ -797,7 +797,7 @@ terminal:
   persistent_shell: true
   shell_init_files: []
   timeout: 180
-timezone: ''
+timezone: ""
 title_generation:
   model: agnes-3.0-flash
 tool_loop_guardrails:
@@ -834,7 +834,7 @@ tts:
   gemini:
     audio_tags: false
     model: gemini-2.5-flash-preview-tts
-    persona_prompt_file: ''
+    persona_prompt_file: ""
     voice: Kore
   mistral:
     model: voxtral-mini-tts-2603
@@ -842,8 +842,8 @@ tts:
   neutts:
     device: cpu
     model: neuphonic/neutts-air-q4-gguf
-    ref_audio: ''
-    ref_text: ''
+    ref_audio: ""
+    ref_text: ""
   openai:
     model: gpt-4o-mini-tts
     voice: alloy
@@ -873,9 +873,9 @@ voice:
   silence_duration: 3
   silence_threshold: 200
 web:
-  backend: ''
-  extract_backend: ''
-  search_backend: ''
+  backend: ""
+  extract_backend: ""
+  search_backend: ""
 web_extract:
   model: agnes-3.0-flash
 x_search:
